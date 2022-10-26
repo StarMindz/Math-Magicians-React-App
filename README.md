@@ -1,3 +1,6 @@
+# Math-Magicians React App
+
+"Math-Magicians"  is a webapp for all fans of mathematics. It is a Single-Page-App (SPA) that allows users to make simple calcualtions and read a randoom amth-related quote. This Single-Page-app was created using React
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
