@@ -16,7 +16,7 @@ class Calculator extends Component {
           <Button value="AC" />
           <Button value="+/-" />
           <Button value="%" />
-          <Button value="+" />
+          <Button value="/" />
           <Button value="7" />
           <Button value="8" />
           <Button value="9" />
