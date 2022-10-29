@@ -1,38 +1,48 @@
 import React, { Component } from "react";
-import Button from "./Button";
+import calculate from "../logic/calculate";
 
-const buttonArr = ['AC', '+/-', '%', '/', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '=']
 class Calculator extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+    this.updateScreen = this.updateScreen.bind(this);
+  }
 
-    constructor(props) {
-        super(props);
-        this.state = {screen: '0'};
-    }
+  updateScreen(element) {
+    this.setState((state) => calculate(state, element.target.innerText));     
+  }
 
-    updateScreen(value) {
-        console.log(value);
-        console.log(this.state.screen);
-        // console.log(this.state);
-        // const digits = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
-        // if (digits.includes(value))
-        // {
-        //     this.setState({screen: this.state.screen + value});
-        // }
-    }
-
-    render() {
-        return(
-        <div className="calculator">
-            <div className="display">{this.state.screen}</div>
-            <div className="input"> 
-            {buttonArr.map((item, index) => {
-                // <div onClick={() =>this.updateScreen({item})}>  </div>  
-                return <Button value={item} click={this.updateScreen}/>
-            })}
-            </div>
+  render() {
+    const { next, result } = this.state;
+    return (
+      <div className="calculator">
+        <div className="display">
+          <span>{next || result || 0}</span>
         </div>
-        )
-    }
+        <div className="input"> 
+          <div className="button" onClick={this.updateScreen}>AC</div>
+          <div className="button" onClick={this.updateScreen}>+/-</div>
+          <div className="button" onClick={this.updateScreen}>%</div>
+          <div className="button special-button" onClick={this.updateScreen}>÷</div>
+          <div className="button" onClick={this.updateScreen}>7</div>
+          <div className="button" onClick={this.updateScreen}>8</div>
+          <div className="button" onClick={this.updateScreen}>9</div>
+          <div className="button special-button" onClick={this.updateScreen}>x</div>
+          <div className="button" onClick={this.updateScreen}>4</div>
+          <div className="button" onClick={this.updateScreen}>5</div>
+          <div className="button" onClick={this.updateScreen}>6</div>
+          <div className="button special-button" onClick={this.updateScreen}>-</div>
+          <div className="button" onClick={this.updateScreen}>1</div>
+          <div className="button" onClick={this.updateScreen}>2</div>
+          <div className="button" onClick={this.updateScreen}>3</div>
+          <div className="button special-button" onClick={this.updateScreen}>+</div>
+          <div className="button double-button" onClick={this.updateScreen}>0</div>
+          <div className="button" onClick={this.updateScreen}>.</div>
+          <div className="button special-button" onClick={this.updateScreen}>=</div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default Calculator;
