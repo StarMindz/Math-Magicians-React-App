@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import Button from './Button';
 
 class Calculator extends Component {
-
+  constructor () {
+    this.state = { screen: '0' } 
+  }
   render() {
     return (
       <div className="calculator">
-        <div className="display">0</div>
+        <div className="display">{ this.state.screen }</div>
         <div className="input">
           <Button value="AC" />
           <Button value="+/-" />
