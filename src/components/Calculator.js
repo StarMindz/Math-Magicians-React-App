@@ -2,15 +2,12 @@ import React, { Component } from 'react';
 import Button from './Button';
 
 class Calculator extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { value: null};
-  }
+
   render() {
     return (
       <div className="calculator">
         <div className="display">0</div>
-        <div className="input"> 
+        <div className="input">
           <Button value="AC" />
           <Button value="+/-" />
           <Button value="%" />
