@@ -14,15 +14,15 @@ class Button extends Component {
     }
     return (
       <div
-        className={
-          this.state.operators.includes(value)
+          className={
+            this.state.operators.includes(value)
               ? 'special-button'
               : 'button'
           }
-       >
+        >
           {value}
-      </div>
-    );
+        </div>
+      );
   }
 }
 
