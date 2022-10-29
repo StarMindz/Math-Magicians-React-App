@@ -2,15 +2,16 @@ import React, { Component } from 'react';
 import Button from './Button';
 
 class Calculator extends Component {
-  constructor (props) {
-    super(props)
-    this.state = {screen:'0'};
+  constructor(props) {
+    super(props);
+    this.state = { screen: '0' };
   }
 
   render() {
+    const { screen } = this.state;
     return (
       <div className="calculator">
-        <div className="display">{this.state.screen}</div>
+        <div className="display">{screen}</div>
         <div className="input">
           <Button value="AC" />
           <Button value="+/-" />
