@@ -29,7 +29,6 @@
 .input {
   display: grid;
   grid-template-columns: 90px 90px 90px 90px;
-
 }
 
 .button {
