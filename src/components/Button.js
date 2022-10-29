@@ -9,17 +9,17 @@ class Button extends Component {
 
   render() {
     const { value } = this.props;
+    const { operators } = this.state;
     if (value === '0') {
       return <div className="double-button button">{ value }</div>;
     }
     return (
       <div
         className={
-            this.state.operators.includes(value)
+            operators.includes(value)
               ? 'special-button'
               : 'button'
-          }
-        >
+        }>
           {value}
       </div>
     );
