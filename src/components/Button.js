@@ -19,8 +19,9 @@ class Button extends Component {
             operators.includes(value)
               ? 'special-button'
               : 'button'
-        }>
-          {value}
+        }
+      >
+        {value}
       </div>
     );
   }
