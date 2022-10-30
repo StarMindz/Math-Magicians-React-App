@@ -13,7 +13,7 @@ const Calculator = () => {
   return (
     <div className="calculator">
       <div className="display">
-        <span>{state.next || state.result || 0}</span>
+        <span>{state.next || state.total || 0}</span>
       </div>
       <div className="input">
         <div className="input">
