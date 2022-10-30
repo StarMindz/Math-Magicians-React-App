@@ -8,7 +8,7 @@ const Calculator = () => {
 
   const updateScreen = (element) => {
     setState((state) => calculate(state, element.target.innerText));
-  }
+  };
 
   return (
     <div className="calculator">
@@ -38,6 +38,6 @@ const Calculator = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Calculator;
