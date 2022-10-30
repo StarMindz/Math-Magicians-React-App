@@ -15,11 +15,11 @@ class Calculator extends Component {
   }
 
   render() {
-    const { next, result } = this.state;
+    const { next, total } = this.state;
     return (
       <div className="calculator">
         <div className="display">
-          <span>{next || result || 0}</span>
+          <span>{next || total || 0}</span>
         </div>
         <div className="input">
           <div className="button" onClick={this.updateScreen}>AC</div>
