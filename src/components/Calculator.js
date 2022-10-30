@@ -37,8 +37,7 @@ const Calculator = () => {
         <div className="button special-button" onClick={updateScreen}>=</div>
       </div>
     </div>
-    );
-  }
+  );
 }
 
 export default Calculator;
