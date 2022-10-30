@@ -1,4 +1,4 @@
-// eslint-disable-line jsx-a11y/no-static-element-interactions
+// eslint-disable jsx-a11y/no-static-element-interactions
 import React, { Component } from "react";
 import calculate from "../logic/calculate";
 
