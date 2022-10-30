@@ -16,25 +16,25 @@ const Calculator = () => {
         <span>{state.next || state.result || 0}</span>
       </div>
       <div className="input">
-        <div className="button" onClick={updateScreen}>AC</div>
-        <div className="button" onClick={updateScreen}>+/-</div>
-        <div className="button" onClick={updateScreen}>%</div>
-        <div className="button special-button" onClick={updateScreen}>÷</div>
-        <div className="button" onClick={updateScreen}>7</div>
-        <div className="button" onClick={updateScreen}>8</div>
-        <div className="button" onClick={updateScreen}>9</div>
-        <div className="button special-button" onClick={updateScreen}>x</div>
-        <div className="button" onClick={updateScreen}>4</div>
-        <div className="button" onClick={updateScreen}>5</div>
-        <div className="button" onClick={updateScreen}>6</div>
-        <div className="button special-button" onClick={updateScreen}>-</div>
-        <div className="button" onClick={updateScreen}>1</div>
-        <div className="button" onClick={updateScreen}>2</div>
-        <div className="button" onClick={updateScreen}>3</div>
-        <div className="button special-button" onClick={updateScreen}>+</div>
-        <div className="button double-button" onClick={updateScreen}>0</div>
-        <div className="button" onClick={updateScreen}>.</div>
-        <div className="button special-button" onClick={updateScreen}>=</div>
+        <button type="button className="button" onClick={updateScreen}>AC</button>
+        <button type="button className="button" onClick={updateScreen}>+/-</button>
+        <button type="button className="button" onClick={updateScreen}>%</button>
+        <button type="button className="button special-button" onClick={updateScreen}>÷</button>
+        <button type="button className="button" onClick={updateScreen}>7</button>
+        <button type="button className="button" onClick={updateScreen}>8</button>
+        <button type="button className="button" onClick={updateScreen}>9</button>
+        <button type="button className="button special-button" onClick={updateScreen}>x</button>
+        <button type="button className="button" onClick={updateScreen}>4</button>
+        <button type="button className="button" onClick={updateScreen}>5</button>
+        <button type="button className="button" onClick={updateScreen}>6</button>
+        <button type="button className="button special-button" onClick={updateScreen}>-</button>
+        <button type="button className="button" onClick={updateScreen}>1</button>
+        <button type="button className="button" onClick={updateScreen}>2</button>
+        <button type="button className="button" onClick={updateScreen}>3</button>
+        <button type="button className="button special-button" onClick={updateScreen}>+</button>
+        <button type="button className="button double-button" onClick={updateScreen}>0</button>
+        <button type="button className="button" onClick={updateScreen}>.</button>
+        <button type="button className="button special-button" onClick={updateScreen}>=</button>
       </div>
     </div>
   );
