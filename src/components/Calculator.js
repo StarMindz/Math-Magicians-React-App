@@ -1,6 +1,7 @@
-// eslint-disable jsx-a11y/no-static-element-interactions
-import React, { Component } from "react";
-import calculate from "../logic/calculate";
+/* eslint-disable jsx-a11y/no-static-element-interactions*/
+/* eslint-disable jsx-a11y/click-events-have-key-events*/
+import React, { Component } from 'react';
+import calculate from '../logic/calculate';
 
 class Calculator extends Component {
   constructor(props) {
@@ -10,7 +11,7 @@ class Calculator extends Component {
   }
 
   updateScreen(element) {
-    this.setState((state) => calculate(state, element.target.innerText));     
+    this.setState((state) => calculate(state, element.target.innerText));
   }
 
   render() {
@@ -20,7 +21,7 @@ class Calculator extends Component {
         <div className="display">
           <span>{next || result || 0}</span>
         </div>
-        <div className="input"> 
+        <div className="input">
           <div className="button" onClick={this.updateScreen}>AC</div>
           <div className="button" onClick={this.updateScreen}>+/-</div>
           <div className="button" onClick={this.updateScreen}>%</div>
