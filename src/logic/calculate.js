@@ -1,4 +1,4 @@
-/* eslint-disable import/extensions */
+/* eslint-disable import/extensions no-irregular-whitespace */
 import operate from './operate';
 
 function isNumber(item) {
