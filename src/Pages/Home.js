@@ -1,3 +1,5 @@
+/* eslint-disable arrow-body-style */
+/* eslint-disable max-len */
 const Home = () => {
   return (
     <div className="Home">

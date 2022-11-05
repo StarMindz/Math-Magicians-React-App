@@ -25,9 +25,3 @@ code {
     'Courier New',
     monospace;
 }
-
-.homeLink, .calculatorLink, .quoteLink {
-  color: white;
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-}

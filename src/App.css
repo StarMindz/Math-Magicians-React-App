@@ -122,8 +122,8 @@ h2 {
 }
 
 .HomeText {
- color: white;
- width: 80%
+  color: white;
+  width: 80%;
 }
 
 .calculatorComponent {
@@ -144,4 +144,12 @@ h2 {
 .calculatorTitle {
   font-size: 35px;
   color: #ff044b;
+}
+
+.homeLink,
+.calculatorLink,
+.quoteLink {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
