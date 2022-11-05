@@ -9,8 +9,8 @@ class Quotes extends Component {
   render() {
     return (
       <div className="quotes">
-        <div className='quotesInner'>
-          <p className='quoteText'>Mathematics is not about numbers, equations, computations or algorithm: It is about understanding. -William Paul Thurston</p>
+        <div className="quotesInner">
+          <p className="quoteText">Mathematics is not about numbers, equations, computations or algorithm: It is about understanding. -William Paul Thurston</p>
         </div>
       </div>
     );

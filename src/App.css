@@ -78,7 +78,8 @@
   height: 700px;
 }
 
-.Home, .quotes {
+.Home,
+.quotes {
   background-image: url('./images/geometry.jpg');
   display: flex;
   height: 700px;
@@ -86,11 +87,12 @@
   padding: 0;
 }
 
-.HomeInner{
+.HomeInner {
   background-color: rgb(0, 0, 0, 0.8);
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 700px;
 }
 
 .quotes {
@@ -114,9 +116,9 @@
 }
 
 h2 {
- font-family: "Mali", cursive, sans-serif;
- color: #ff044b;
- margin: 40px
+  font-family: "Mali", cursive, sans-serif;
+  color: #ff044b;
+  margin: 40px;
 }
 
 .HomeText {
@@ -132,7 +134,7 @@ h2 {
   background-color: rgb(0, 0, 0, 0.8);
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 20px;
   align-items: center;
   justify-content: center;
   overflow: hidden;
