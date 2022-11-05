@@ -24,6 +24,9 @@ Install
 - Download VS Code or any Text Editor
 - NodeJS
 
+## Live Demo
+[view live demo](https://math-magician-react555.netlify.app/)
+
 ## Authors
 
 👤 **Stanley Nnamani aka starmindz**
