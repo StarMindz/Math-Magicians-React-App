@@ -3,6 +3,10 @@
   background-color: #34568b;
   flex-direction: column;
   align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Mali", cursive, sans-serif;
+  list-style: none;
 }
 
 .calculator {
@@ -12,7 +16,6 @@
   border: 1px solid black;
   background-color: rgb(201, 196, 196);
   flex-direction: column;
-  margin: 40px;
 }
 
 .display {
@@ -49,4 +52,104 @@
 
 .double-button {
   grid-column: span 2;
+}
+
+.navBar {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Mali", cursive, sans-serif;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #c70039;
+  color: white;
+}
+
+.menuItems {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.calculatorBackground {
+  background-image: url('./images/geometry.jpg');
+  height: 700px;
+}
+
+.Home,
+.quotes {
+  background-image: url('./images/geometry.jpg');
+  display: flex;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+}
+
+.HomeInner {
+  background-color: rgb(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 700px;
+}
+
+.quotes {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quotesInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quoteText {
+  background-color: #c70039;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-family: "Mali", cursive, sans-serif;
+  color: #ff044b;
+  margin: 40px;
+}
+
+.HomeText {
+  color: white;
+  width: 80%;
+}
+
+.calculatorComponent {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 700px;
+  background-color: rgb(0, 0, 0, 0.8);
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-size: contain;
+}
+
+.calculatorTitle {
+  font-size: 35px;
+  color: #ff044b;
+}
+
+.homeLink,
+.calculatorLink,
+.quoteLink {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
