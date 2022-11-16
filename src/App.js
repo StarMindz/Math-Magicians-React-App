@@ -11,7 +11,7 @@ import Nav from './Pages/Nav';
 import './App.css';
 
 const App = () => (
-  <Router>
+  <Router class="appBigContainer">
     <Nav />
     <Routes className="appContainer">
       <Route path="/" element={<Home />} />
