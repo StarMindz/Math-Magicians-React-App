@@ -31,9 +31,8 @@ Install
 
 👤 **Stanley Nnamani aka starmindz**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@starmindz](https://github.com/starmindz)
+- LinkedIn: [Stanley Nnamani](https://www.linkedin.com/in/stanley-nnamani-72224b180)
 
 ## 🤝 Contributing
 
@@ -47,9 +46,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Cheers 🥂 all Nigerian Afro beat musicians whose beautiful music made coding this project even more fun😊. 
+
 
 ## 📝 License
 
