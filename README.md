@@ -46,7 +46,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Cheers 🥂 all Nigerian Afro beat musicians whose beautiful music made coding this project even more fun😊. 
+- Cheers 🥂 to all Nigerian Afro beat musicians whose beautiful music made coding this project even more fun😊. 
 
 
 ## 📝 License
